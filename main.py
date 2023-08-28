@@ -6,8 +6,8 @@ pygame.display.set_caption('Mario')
 screen = pygame.display.set_mode((500, 500))
 
 def listappend():
-    f = open('data2/map.txt')
-    for line in f:
+    file = open('data2/map.txt')
+    for line in file:
         for symb in line:
             listsymb.append(symb)
 
